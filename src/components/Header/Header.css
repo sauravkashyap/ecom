@@ -1,0 +1,22 @@
+/* src/Header.css */
+
+.custom-header {
+    background-color: #3498db;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+  }
+  

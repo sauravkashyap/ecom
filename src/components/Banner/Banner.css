@@ -1,0 +1,22 @@
+/* src/components/Banner.css */
+
+.banner-container {
+    background-image: url('../../assets/images/image1.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    color: white; /* Set the text color to contrast with the background */
+    max-width: 100%;
+    flex: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  

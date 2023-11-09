@@ -1,0 +1,41 @@
+/* src/components/ImageSlider.css */
+
+.image-slider-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .slick-slider {
+    position: relative;
+  }
+  
+  .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #3498db;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .slick-dots li.slick-active button {
+    background: #3498db;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
